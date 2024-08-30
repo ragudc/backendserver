@@ -1,5 +1,5 @@
 # new proyect backend server
 
-# how to run the server
+# how to run the server in localhost
 
-# npm run dev
+# node server.js
