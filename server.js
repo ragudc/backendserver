@@ -1,8 +1,11 @@
+const cors = require('cors');
 const express = require('express');
 const serverless = require('serverless-http');
 const app = express();
 
-app.use(express.json());
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
 
 // Datos estáticos de imágenes
 const IMAGES = [
